@@ -23,16 +23,13 @@
 
 	if ([direction isEqualToString:@"up"]) {
 		self.y += 1;
-		NSLog(@"Robot location: (%d, %d)", (int)_x, (int)_y);
 	} else if ([direction isEqualToString:@"down"]) {
 		self.y -= 1;
-		NSLog(@"Robot location: (%d, %d)",(int)_x, (int)_y);
 	} else if ([direction isEqualToString:@"left"]) {
 		self.x -= 1;
-		NSLog(@"Robot location: (%d, %d)", (int)_x, (int)_y);
 	} else if ([direction isEqualToString:@"right"]) {
 		self.x += 1;
-		NSLog(@"Robot location: (%d, %d)", (int)_x, (int)_y);
 	}
+	NSLog(@"Robot location: (%d, %d)", (int)_x, (int)_y);
 }
 @end
