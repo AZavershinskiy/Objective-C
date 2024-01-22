@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872DE67D2B5EB32F00A43B2C /* GETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872DE67C2B5EB32F00A43B2C /* GETViewController.m */; };
+		872DE6802B5EB3D300A43B2C /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 872DE67F2B5EB3D300A43B2C /* Loader.m */; };
 		8787DB7C2B5968BB0069F32D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8787DB7B2B5968BB0069F32D /* AppDelegate.m */; };
 		8787DB7F2B5968BB0069F32D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8787DB7E2B5968BB0069F32D /* SceneDelegate.m */; };
 		8787DB872B5968BD0069F32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8787DB862B5968BD0069F32D /* Assets.xcassets */; };
 		8787DB8A2B5968BD0069F32D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8787DB882B5968BD0069F32D /* LaunchScreen.storyboard */; };
 		8787DB8D2B5968BD0069F32D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8787DB8C2B5968BD0069F32D /* main.m */; };
-		8787DB952B59692C0069F32D /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8787DB932B59692C0069F32D /* Loader.m */; };
-		8787DB982B5969A60069F32D /* GETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8787DB972B5969A60069F32D /* GETViewController.m */; };
 		8787DB9B2B597C690069F32D /* POSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8787DB9A2B597C690069F32D /* POSTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		872DE67B2B5EB32F00A43B2C /* GETViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GETViewController.h; sourceTree = "<group>"; };
+		872DE67C2B5EB32F00A43B2C /* GETViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GETViewController.m; sourceTree = "<group>"; };
+		872DE67E2B5EB3D300A43B2C /* Loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
+		872DE67F2B5EB3D300A43B2C /* Loader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Loader.m; sourceTree = "<group>"; };
 		8787DB772B5968BB0069F32D /* HW05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW05.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8787DB7A2B5968BB0069F32D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8787DB7B2B5968BB0069F32D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,10 +31,6 @@
 		8787DB892B5968BD0069F32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8787DB8B2B5968BD0069F32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8787DB8C2B5968BD0069F32D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8787DB932B59692C0069F32D /* Loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Loader.m; path = ../../../Sems/Seminar05UIKit/Seminar05UIKit/Loader.m; sourceTree = "<group>"; };
-		8787DB942B59692C0069F32D /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Loader.h; path = ../../../Sems/Seminar05UIKit/Seminar05UIKit/Loader.h; sourceTree = "<group>"; };
-		8787DB962B5969A60069F32D /* GETViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GETViewController.h; path = ../../../Sems/Seminar05UIKit/Seminar05UIKit/GETViewController.h; sourceTree = "<group>"; };
-		8787DB972B5969A60069F32D /* GETViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GETViewController.m; path = ../../../Sems/Seminar05UIKit/Seminar05UIKit/GETViewController.m; sourceTree = "<group>"; };
 		8787DB992B597C690069F32D /* POSTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POSTViewController.h; sourceTree = "<group>"; };
 		8787DB9A2B597C690069F32D /* POSTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POSTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,12 +69,12 @@
 				8787DB7B2B5968BB0069F32D /* AppDelegate.m */,
 				8787DB7D2B5968BB0069F32D /* SceneDelegate.h */,
 				8787DB7E2B5968BB0069F32D /* SceneDelegate.m */,
-				8787DB962B5969A60069F32D /* GETViewController.h */,
-				8787DB972B5969A60069F32D /* GETViewController.m */,
+				872DE67B2B5EB32F00A43B2C /* GETViewController.h */,
+				872DE67C2B5EB32F00A43B2C /* GETViewController.m */,
 				8787DB992B597C690069F32D /* POSTViewController.h */,
 				8787DB9A2B597C690069F32D /* POSTViewController.m */,
-				8787DB942B59692C0069F32D /* Loader.h */,
-				8787DB932B59692C0069F32D /* Loader.m */,
+				872DE67E2B5EB3D300A43B2C /* Loader.h */,
+				872DE67F2B5EB3D300A43B2C /* Loader.m */,
 				8787DB862B5968BD0069F32D /* Assets.xcassets */,
 				8787DB882B5968BD0069F32D /* LaunchScreen.storyboard */,
 				8787DB8B2B5968BD0069F32D /* Info.plist */,
@@ -152,12 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872DE67D2B5EB32F00A43B2C /* GETViewController.m in Sources */,
 				8787DB9B2B597C690069F32D /* POSTViewController.m in Sources */,
 				8787DB7C2B5968BB0069F32D /* AppDelegate.m in Sources */,
 				8787DB8D2B5968BD0069F32D /* main.m in Sources */,
+				872DE6802B5EB3D300A43B2C /* Loader.m in Sources */,
 				8787DB7F2B5968BB0069F32D /* SceneDelegate.m in Sources */,
-				8787DB952B59692C0069F32D /* Loader.m in Sources */,
-				8787DB982B5969A60069F32D /* GETViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
